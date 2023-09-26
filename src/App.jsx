@@ -1,10 +1,9 @@
-import "./App.css";
-import Check from "./component/Check";
+import TodoForm from "./component/TodoForm";
 
 function App() {
   return (
     <div>
-      <Check />
+      <TodoForm />
     </div>
   );
 }
