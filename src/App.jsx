@@ -1,10 +1,15 @@
 import "./App.css";
-import Check from "./component/Check";
+import Code from "./component/Code";
+import SimpleTodo from "./component/SimpleTodo";
+
 
 function App() {
   return (
     <div>
-      <Check />
+      
+      <SimpleTodo />
+      <Code />
+
     </div>
   );
 }
