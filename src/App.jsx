@@ -1,11 +1,14 @@
 import "./App.css";
-import SimpleTodo from './component/SimpleTodo';
+import "bootstrap/dist/css/bootstrap.min.css"; 
+import "bootstrap/dist/js/bootstrap.bundle.min.js";
+import TodoList from "./component/TodoList";
+
 
 
 function App() {
   return (
     <div>
-      <SimpleTodo />
+      <TodoList />
     </div>
   );
 }

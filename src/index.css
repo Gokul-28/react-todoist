@@ -1,0 +1,10 @@
+.completed-task {
+    text-decoration: line-through;
+  }
+  
+  /* Center the "Clear All Tasks" button */
+  button.mt-3 {
+    margin: 0 auto;
+    display: block;
+  }
+  
