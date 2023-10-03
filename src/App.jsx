@@ -1,9 +1,11 @@
-import TodoForm from "./component/TodoForm";
+import "./App.css";
+import SimpleTodo from './component/SimpleTodo';
+
 
 function App() {
   return (
     <div>
-      <TodoForm />
+      <SimpleTodo />
     </div>
   );
 }
