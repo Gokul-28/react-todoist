@@ -41,7 +41,7 @@ const TodoList = () => {
 
   return (
     <div>
-      <h2 className="text-center">To-Do List</h2>
+      <h2 className="text-center">To-Do List using React and Bootstrap</h2>
       <Form>
         <Form.Group controlId="taskInput">
           <Form.Control
