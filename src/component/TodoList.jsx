@@ -51,7 +51,7 @@ const TodoList = () => {
             onChange={(e) => setTaskText(e.target.value)}
           />
         </Form.Group>
-        <Button variant="primary" onClick={addTask}>
+        <Button variant="danger" onClick={addTask}>
           Add Task
         </Button>
       </Form>
